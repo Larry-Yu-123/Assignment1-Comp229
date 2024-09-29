@@ -1,0 +1,107 @@
+/**
+ * File Name : App.css
+ * Student Name: Larry Yu
+ * Student Id: 301354583
+ * Date : Sept 29, 2024
+ */
+
+
+/* General body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; 
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation bar styling */
+nav {
+  background-color: #1e90ff; 
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Button styling in the navigation bar */
+nav button {
+  background-color: #ffffff; 
+  color: #1e90ff; 
+  border: 2px solid #1e90ff; 
+  border-radius: 5px; 
+  padding: 10px 20px;
+  margin: 0 10px; 
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for buttons */
+nav button:hover {
+  background-color: #1e90ff; 
+  color: white; 
+}
+
+/* Logos at Left and right */
+.logo-left {
+  color: #ffffff; 
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-right {
+  color: #ffffff; 
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Heading styles */
+h1 {
+  color: #1e90ff; 
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Content section styling */
+div {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: white; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #4682b4; 
+}
+
+
